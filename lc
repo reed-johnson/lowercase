@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm $2
+cat $1 | lowercase >> $2
